@@ -3,9 +3,7 @@
 /**
  * AbstractCurly
  * 
- * @package   mirrormint 
- * @author    hedonist@privacyharbor.com
- * @copyright 2012 mirrormint.com
+ * @author    Neil Opet <neil.opet@gmail.com>
  * @version   0.0.1 
  * @access    public
  */

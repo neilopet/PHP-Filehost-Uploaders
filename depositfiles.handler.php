@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Depositfiles.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Depositfiles
+ * An object used to upload files to Depositfiles.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface DepositfilesInterface
 {

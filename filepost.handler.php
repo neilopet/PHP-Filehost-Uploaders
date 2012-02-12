@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Filepost.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Filepost
+ * An object used to upload files to Filepost.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface FilepostInterface
 {

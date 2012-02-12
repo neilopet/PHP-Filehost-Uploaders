@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Mediafire.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Mediafire
+ * An object used to upload files to Mediafire.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface MediafireInterface
 {

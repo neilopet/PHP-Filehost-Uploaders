@@ -2,38 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Uploading.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Notes:
- * All active sessions expire on successful upload.
- * 
- * We can possibly remove the Upload URL request if we
- * can decipher the upload url.  It looks like a Base64
- * that uses the SID cookie.  I couldn't reverse the algorithm
- * in such little time. 
- * 
- * Uploading.com uses duplicate "file" fields in the
- * post header for an upload.  The first "file" field
- * contains the unique file ID returned by the files/generate/
- * HTTP request.  The second "file" field is the contents of 
- * the uploaded file.
- * 
- * Flow:
- * START: > Login 
- *        > Get upload URL from Javascript on index 
- *        > Generate new file id and download link
- *        > Post upload form
- * 
- * Usage:
- * ------------------------------------
-    $uploading = new Uploading('username', 'password', 'C:\\path\\to\\file.whatever');
-    echo $uploading->Upload(function($pct) {
-        echo $pct, "%\r"; 
-    });
-*/
+/** 
+ * Uploading
+ * An object used to upload files to Uploading.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface UploadingInterface
 {

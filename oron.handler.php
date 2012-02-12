@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Oron.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Oron
+ * An object used to upload files to Oron.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface OronInterface
 {

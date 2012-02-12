@@ -2,24 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: filesonic.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
- 
-$filesonic = array(
-    'u' => 'neil.opet@gmail.com',
-    'p' => 'nugget106'
-);
-
-$fs = new Filesonic( $filesonic['u'], $filesonic['p'], 'F:\\Downloads\\test.txt' );
-$download_link = $fs->Upload();
-echo '<a href="', $download_link, '">', $download_link, '</a>';
-
-*/
+/** 
+ * Filesonic
+ * An object used to upload files to Filesonic.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface FilesonicInterface
 {

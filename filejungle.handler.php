@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Filejungle.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Filejungle
+ * An object used to upload files to Filejungle.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface FilejungleInterface
 {

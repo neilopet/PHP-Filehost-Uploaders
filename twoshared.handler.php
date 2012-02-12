@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Twoshared.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Twoshared
+ * An object used to upload files to 2shared.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface TwosharedInterface
 {

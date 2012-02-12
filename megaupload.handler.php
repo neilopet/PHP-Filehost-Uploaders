@@ -2,15 +2,10 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Megaupload.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
- * $mu = new Megaupload( 'testusername', 'testingpassword', '/path/to/file.rar' );
- * $ms->Upload(function($pct){ echo $pct,"%\r"; });
+/** 
+ * Megaupload
+ * An object used to upload files to Megaupload.com - RIP
+ * @author Neil Opet <neil.opet@gmail.com>
  */
 
 interface MegauploadInterface

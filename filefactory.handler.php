@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: Filefactory.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Filefactory
+ * An object used to upload files to Filefactory.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface FilefactoryInterface
 {

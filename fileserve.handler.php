@@ -2,14 +2,11 @@
 
 require_once 'AbstractCurly.class.php';
 
-/**
- * ~Id: fileserve.handler.php
- * @author  hedonist@privacyharbor.com
- * @package mirrormint
- * 
- * Usage:
- * ------------------------------------
-*/
+/** 
+ * Fileserve
+ * An object used to upload files to Fileserve.com
+ * @author Neil Opet <neil.opet@gmail.com>
+ */
  
 interface FileserveInterface
 {
